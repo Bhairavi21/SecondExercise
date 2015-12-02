@@ -40,7 +40,7 @@
 					<div class="nav-collapse collapse navbar-responsive-collapse">
 						<ul class="nav navbar-nav pull-right">
 							<li>
-								<a href="#">Home</a>
+								<a href="index.html">Home</a>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <strong class="caret"></strong></a>
@@ -114,7 +114,7 @@
                 </ul><!--Kids-->
               </li>
               <li>
-								<a href="#">Login</a>
+								<a href="#myModal2" role="button" data-toggle="modal">Login</a>
 							</li>
               <li>
 								<a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
@@ -287,6 +287,48 @@
         </div><!-- end row -->
       </div><!-- end container -->
     </footer>
+		<div class="modal fade" id="myModal2">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal">&times;</button>
+
+						<h4 class="modal-title">Login</h4>
+					</div><!-- end modal-header -->
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+						<h4>Hi!</h4>
+						<p>You are about to login to the website</p>
+					</div><!-- end alert -->
+
+					<div class="modal-body">
+						<p>Hi Welcome Back</p>
+
+						<form class="form-horizontal">
+							<div class="form-group">
+								<label class="col-lg-3 control-label" for="inputEmail">Email</label>
+								<div class="col-lg-9">
+									<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+								</div>
+							</div>
+
+							<div class="form-group">
+								<label class="col-lg-3 control-label" for="inputPassword">Password</label>
+								<div class="col-lg-9">
+									<input class="form-control" id="inputPassword" placeholder="Password" type="password">
+								</div>
+							</div>
+
+						</form>
+						<div class="modal-footer">
+							<button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+							<button class="btn btn-primary" type="button" id="logMeIn">Login</button>
+						</div><!-- end modal-footer -->
+				</div><!-- end modal-content -->
+			</div><!-- end modal-dialog -->
+		</div><!-- end myModal -->
+
 
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 

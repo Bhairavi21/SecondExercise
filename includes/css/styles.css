@@ -2,6 +2,10 @@
    Layout
    -------------------------------------- */
 
+	 .alert {
+	 	margin-top: 20px;
+	 	display: none;
+	 }
 #features{
 	margin-top: 70px;
 }
@@ -37,16 +41,16 @@ body {
 	text-rendering: optimizelegibility;
 }
 #part h3{
-	font-size: 20px;
+	font-size: 18px;
 	text-align: center;
 }
 #part p{
-	font-size: 16px;
+	font-size: 14px;
 	text-align: justify;
 }
 ul.unstyled {
 	list-style: none;
-	padding: 0;
+	padding-left: 0;
 }
 #moreInfo{
 	font-family: helvetica;
@@ -58,10 +62,11 @@ ul.unstyled {
 	text-align: center;
 	padding-bottom: 20px;
 }
-#moreInfoH{
+#moreInfoH h3{
 	font-size: 28px;
 	text-decoration: underline;
 	text-align: left;
+	margin-bottom: 0;
 }
 #moreInfo p{
 	font-size: 18px;
@@ -95,7 +100,10 @@ ul.unstyled {
 .navbar-brand {
 	padding: 0px 15px;
 	margin-top: 8px;
-}/*
+}
+footer ul{
+	padding: 0 10px;
+	}/*
 .col-sm-8{
 background-color: yellow;
 }
@@ -108,8 +116,8 @@ Carousel
 -------------------------------------- */
 
 #myCarousel {
-margin-top: 60px;
-margin-bottom: 10px;
+margin-top: 20px;
+margin-bottom: 5px;
 }
 
 .carousel-caption {
@@ -172,6 +180,15 @@ background: url('../../img/hero3_medium.jpg') top center no-repeat;
 .cloth .img-responsive{
 	margin: 0 auto;
 	padding:0 auto;
+}
+#part{
+	padding-top: 0;
+}
+#part h3{
+	font-size: 14px;
+}
+#part p{
+	font-size: 12px;
 }
 	#myCarousel .item { height: 310px;}
 
