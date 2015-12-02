@@ -29,9 +29,15 @@ footer {
 }
 footer a{
 	color: grey;
-
+	font-size: 12px;
 }
-
+.dropdown-menu{
+	background-color: #eee;
+}
+.dropdown-menu .divider{
+	margin: 2px 0;
+	height: 2px;
+}
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -39,6 +45,8 @@ footer a{
 body {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
+	font-family: Open Sans;
+
 }
 #part h3{
 	font-size: 18px;
@@ -63,10 +71,11 @@ ul.unstyled {
 	padding-bottom: 20px;
 }
 #moreInfoH h3{
-	font-size: 28px;
-	text-decoration: underline;
+	font-size: 26px;
+	text-decoration: none;
 	text-align: left;
 	margin-bottom: 0;
+	padding-bottom: 2px;
 }
 #moreInfo p{
 	font-size: 18px;
@@ -79,9 +88,16 @@ ul.unstyled {
  color: black;
 	padding: 20px;
 }
-#moreInfo img{
-	width:300px;
-	height:300px;
+#features a{
+	padding-top: 5px;
+	color: black;
+	text-decoration: none;
+}
+#features h4{
+	color: black;
+}
+.tabbable a{
+	font-size: 15px;
 }
 .col-sm-6,.col-sm-3, .col-sm-8{
 	padding: 0;
@@ -103,7 +119,11 @@ ul.unstyled {
 }
 footer ul{
 	padding: 0 10px;
-	}/*
+	}
+	footer h6{
+			font-size: 14px;
+		}
+		/*
 .col-sm-8{
 background-color: yellow;
 }
